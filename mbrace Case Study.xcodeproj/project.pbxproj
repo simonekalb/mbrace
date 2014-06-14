@@ -14,8 +14,6 @@
 		142B52AD194C498100C148CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52AC194C498100C148CF /* main.m */; };
 		142B52B1194C498100C148CF /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52B0194C498100C148CF /* SKAppDelegate.m */; };
 		142B52B4194C498100C148CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142B52B2194C498100C148CF /* Main.storyboard */; };
-		142B52B7194C498100C148CF /* SKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52B6194C498100C148CF /* SKFirstViewController.m */; };
-		142B52BA194C498100C148CF /* SKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52B9194C498100C148CF /* SKSecondViewController.m */; };
 		142B52BC194C498100C148CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142B52BB194C498100C148CF /* Images.xcassets */; };
 		142B52C3194C498100C148CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142B52C2194C498100C148CF /* XCTest.framework */; };
 		142B52C4194C498100C148CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142B52A0194C498100C148CF /* Foundation.framework */; };
@@ -23,6 +21,8 @@
 		142B52CD194C498100C148CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142B52CB194C498100C148CF /* InfoPlist.strings */; };
 		142B52CF194C498100C148CF /* mbrace_Case_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52CE194C498100C148CF /* mbrace_Case_StudyTests.m */; };
 		142B52D9194C4D2E00C148CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 142B52D8194C4D2E00C148CF /* Podfile */; };
+		142B52DC194C51CA00C148CF /* SKCardSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52DB194C51CA00C148CF /* SKCardSelectionViewController.m */; };
+		3F5086463E06463584695040 /* libPods-mbrace Case Study.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B492ED5632F4C5E8B7D9A6B /* libPods-mbrace Case Study.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,6 @@
 		142B52AF194C498100C148CF /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
 		142B52B0194C498100C148CF /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
 		142B52B3194C498100C148CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		142B52B5194C498100C148CF /* SKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKFirstViewController.h; sourceTree = "<group>"; };
-		142B52B6194C498100C148CF /* SKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFirstViewController.m; sourceTree = "<group>"; };
-		142B52B8194C498100C148CF /* SKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSecondViewController.h; sourceTree = "<group>"; };
-		142B52B9194C498100C148CF /* SKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSecondViewController.m; sourceTree = "<group>"; };
 		142B52BB194C498100C148CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		142B52C1194C498100C148CF /* mbrace Case StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mbrace Case StudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142B52C2194C498100C148CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +54,10 @@
 		142B52CC194C498100C148CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		142B52CE194C498100C148CF /* mbrace_Case_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbrace_Case_StudyTests.m; sourceTree = "<group>"; };
 		142B52D8194C4D2E00C148CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		142B52DA194C51CA00C148CF /* SKCardSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCardSelectionViewController.h; sourceTree = "<group>"; };
+		142B52DB194C51CA00C148CF /* SKCardSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCardSelectionViewController.m; sourceTree = "<group>"; };
+		35F1703E144944539D2C4789 /* Pods-mbrace Case Study.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mbrace Case Study.xcconfig"; path = "mbrace Case Study/Pods/Pods-mbrace Case Study.xcconfig"; sourceTree = "<group>"; };
+		8B492ED5632F4C5E8B7D9A6B /* libPods-mbrace Case Study.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mbrace Case Study.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 				142B52A3194C498100C148CF /* CoreGraphics.framework in Frameworks */,
 				142B52A5194C498100C148CF /* UIKit.framework in Frameworks */,
 				142B52A1194C498100C148CF /* Foundation.framework in Frameworks */,
+				3F5086463E06463584695040 /* libPods-mbrace Case Study.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +92,7 @@
 				142B52C8194C498100C148CF /* mbrace Case StudyTests */,
 				142B529F194C498100C148CF /* Frameworks */,
 				142B529E194C498100C148CF /* Products */,
+				35F1703E144944539D2C4789 /* Pods-mbrace Case Study.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +112,7 @@
 				142B52A2194C498100C148CF /* CoreGraphics.framework */,
 				142B52A4194C498100C148CF /* UIKit.framework */,
 				142B52C2194C498100C148CF /* XCTest.framework */,
+				8B492ED5632F4C5E8B7D9A6B /* libPods-mbrace Case Study.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,10 +123,8 @@
 				142B52AF194C498100C148CF /* SKAppDelegate.h */,
 				142B52B0194C498100C148CF /* SKAppDelegate.m */,
 				142B52B2194C498100C148CF /* Main.storyboard */,
-				142B52B5194C498100C148CF /* SKFirstViewController.h */,
-				142B52B6194C498100C148CF /* SKFirstViewController.m */,
-				142B52B8194C498100C148CF /* SKSecondViewController.h */,
-				142B52B9194C498100C148CF /* SKSecondViewController.m */,
+				142B52DA194C51CA00C148CF /* SKCardSelectionViewController.h */,
+				142B52DB194C51CA00C148CF /* SKCardSelectionViewController.m */,
 				142B52BB194C498100C148CF /* Images.xcassets */,
 				142B52A7194C498100C148CF /* Supporting Files */,
 			);
@@ -167,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 142B52D2194C498100C148CF /* Build configuration list for PBXNativeTarget "mbrace Case Study" */;
 			buildPhases = (
+				69723358A81B4F739A02704C /* Check Pods Manifest.lock */,
 				142B5299194C498000C148CF /* Sources */,
 				142B529A194C498000C148CF /* Frameworks */,
 				142B529B194C498000C148CF /* Resources */,
+				4B2A63A2090344CA955FFBAF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +257,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B2A63A2090344CA955FFBAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/mbrace Case Study/Pods/Pods-mbrace Case Study-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69723358A81B4F739A02704C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		142B5299194C498000C148CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142B52BA194C498100C148CF /* SKSecondViewController.m in Sources */,
+				142B52DC194C51CA00C148CF /* SKCardSelectionViewController.m in Sources */,
 				142B52B1194C498100C148CF /* SKAppDelegate.m in Sources */,
-				142B52B7194C498100C148CF /* SKFirstViewController.m in Sources */,
 				142B52AD194C498100C148CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +419,7 @@
 		};
 		142B52D3194C498100C148CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F1703E144944539D2C4789 /* Pods-mbrace Case Study.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -397,6 +433,7 @@
 		};
 		142B52D4194C498100C148CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F1703E144944539D2C4789 /* Pods-mbrace Case Study.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -467,6 +504,7 @@
 				142B52D4194C498100C148CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142B52D5194C498100C148CF /* Build configuration list for PBXNativeTarget "mbrace Case StudyTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +513,7 @@
 				142B52D7194C498100C148CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

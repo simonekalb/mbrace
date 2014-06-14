@@ -1,6 +1,8 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, "7.0"
 
+xcodeproj '../mbrace Case Study.xcodeproj'
+
 target "mbrace Case Study" do
 pod 'pop', '~> 1.0'
 pod 'CocoaLumberjack', '~> 1.8.1'

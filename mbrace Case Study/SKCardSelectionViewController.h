@@ -1,5 +1,5 @@
 //
-//  SKFirstViewController.h
+//  SKCardSelectionViewController.h
 //  mbrace Case Study
 //
 //  Created by Simone Kalb on 14/06/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKFirstViewController : UIViewController
+@interface SKCardSelectionViewController : UIViewController
 
 @end
