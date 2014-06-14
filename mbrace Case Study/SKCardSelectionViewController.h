@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface SKCardSelectionViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIView *cardView;
+@property (strong, nonatomic) IBOutlet UIButton *interestButton;
+@property (strong, nonatomic) IBOutlet UIImageView *visualClueOverlayYES;
+@property (strong, nonatomic) IBOutlet UIImageView *visualClueOverlayNO;
 
 @end

@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Card Selection View Controller-->
         <scene sceneID="tJP-Al-lAY">
             <objects>
-                <viewController id="4aB-LM-GLN" sceneMemberID="viewController">
+                <viewController id="4aB-LM-GLN" customClass="SKCardSelectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uda-up-9DO"/>
                         <viewControllerLayoutGuide type="bottom" id="QZA-aO-cxY"/>
@@ -37,17 +37,28 @@
                                 <rect key="frame" x="15" y="78" width="290" height="366"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="card_01" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-ge-niS">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="card_01" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-ge-niS" userLabel="Card">
+                                        <rect key="frame" x="1" y="-1" width="290" height="366"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="visual_clue_yes" translatesAutoresizingMaskIntoConstraints="NO" id="80d-hp-utC" userLabel="visual_clue_yes">
+                                        <rect key="frame" x="1" y="-1" width="290" height="366"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="visual_clue_no" translatesAutoresizingMaskIntoConstraints="NO" id="YMg-UL-Jy1" userLabel="visual_clue_no">
                                         <rect key="frame" x="1" y="-1" width="290" height="366"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="buttons_like" translatesAutoresizingMaskIntoConstraints="NO" id="fy9-Dz-05y">
-                                <rect key="frame" x="15" y="458" width="290" height="51"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6T-hi-IAg" userLabel="Interest Button">
+                                <rect key="frame" x="15" y="464" width="290" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="buttons_like">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,6 +76,12 @@
                             <constraint firstItem="WX1-Hi-BF5" firstAttribute="leading" secondItem="YOT-Lj-34U" secondAttribute="leading" id="xup-Vg-CPA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardView" destination="PUx-YZ-Nrw" id="u7f-2K-D5D"/>
+                        <outlet property="interestButton" destination="B6T-hi-IAg" id="wLG-J8-Ygc"/>
+                        <outlet property="visualClueOverlayNO" destination="YMg-UL-Jy1" id="uVe-lT-oOY"/>
+                        <outlet property="visualClueOverlayYES" destination="80d-hp-utC" id="iY8-qH-9Yj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8L-DQ-mBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,6 +93,8 @@
         <image name="card_01" width="580" height="732"/>
         <image name="nav_bar" width="640" height="130"/>
         <image name="tab_bar" width="640" height="90"/>
+        <image name="visual_clue_no" width="580" height="510"/>
+        <image name="visual_clue_yes" width="580" height="510"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
