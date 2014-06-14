@@ -22,6 +22,7 @@
 		142B52C5194C498100C148CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142B52A4194C498100C148CF /* UIKit.framework */; };
 		142B52CD194C498100C148CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142B52CB194C498100C148CF /* InfoPlist.strings */; };
 		142B52CF194C498100C148CF /* mbrace_Case_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B52CE194C498100C148CF /* mbrace_Case_StudyTests.m */; };
+		142B52D9194C4D2E00C148CF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 142B52D8194C4D2E00C148CF /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		142B52CA194C498100C148CF /* mbrace Case StudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mbrace Case StudyTests-Info.plist"; sourceTree = "<group>"; };
 		142B52CC194C498100C148CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		142B52CE194C498100C148CF /* mbrace_Case_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbrace_Case_StudyTests.m; sourceTree = "<group>"; };
+		142B52D8194C4D2E00C148CF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		142B52A7194C498100C148CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				142B52D8194C4D2E00C148CF /* Podfile */,
 				142B52A8194C498100C148CF /* mbrace Case Study-Info.plist */,
 				142B52A9194C498100C148CF /* InfoPlist.strings */,
 				142B52AC194C498100C148CF /* main.m */,
@@ -236,6 +239,7 @@
 			files = (
 				142B52BC194C498100C148CF /* Images.xcassets in Resources */,
 				142B52AB194C498100C148CF /* InfoPlist.strings in Resources */,
+				142B52D9194C4D2E00C148CF /* Podfile in Resources */,
 				142B52B4194C498100C148CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
